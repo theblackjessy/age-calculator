@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+
+	background-color: rgb(248, 234, 248);
+    
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+    font-family: "Ubuntu";
+}
+* {
+	box-sizing: border-box;
+}
+.container{
+	width:520px;
+	height: auto;
+	margin: 100px auto;
+	background-color: rgb(243, 198, 243);
+	border-radius: 5px;
+}
+
+section{
+    display: flex;
+    gap: 15px;
+
+}
+
+.base{
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	display: block;
+	float: none;
+    padding: 20px;
+}
+.block{
+	width: 135px;
+	padding: 5px 20px;
+	margin-left: 20px;
+	display: inline-block;
+	/* float: left; */
+}
+.base h4{
+	font-size: 26px;
+	text-align: center;
+	font-family: "Ubuntu";
+	font-weight: 600;
+    margin-top: 0px;
+    box-shadow: 0px 2px #bababa;
+    background: white;
+    font-size: 30px;
+	color: blueviolet;
+}
+
+.title{
+	font-size: 20px;
+	text-align: left;
+	font-family: sans-serif;
+	font-weight: normal;
+	line-height: 0.5;
+	letter-spacing: 0.5px;
+	word-spacing: 2.7px;
+	color: purple;
+}
+input[type=text] {
+	width: 140px;
+	margin: auto;
+	outline: none;
+  min-height: 50px;
+	border: 2px solid purple;
+	padding: 12px;
+	background-color: white;
+    border-radius: 2px;
+    color: purple;
+    font-size: 17px;
+}
+input[type=text]:focus{
+	background-color: #ffffff;
+	border: 2px solid orange;
+	outline: none;
+}
+input[type=button]{
+	width: 150px;
+	margin-left: 35%;
+    margin-top: 30px;
+	outline: none;
+	border: none;
+	border-radius: 2px;
+	background-color: blueviolet;
+	color: #ffffff;
+	padding: 14px 16px;
+	text-align: center;
+	font-size: 16px;
+}
+input[type=button]:hover{
+	background-color: purple;
+}
+ 
+#age{
+	display: block;
+    margin-top: 45px;
+	overflow: hidden;
+	font-family: "Ubuntu";
+	font-size: 17px;
+    text-align: center;
+	font-weight: normal;
+	line-height: 1.5;
+	word-spacing: 2.7px;
+	color: blueviolet;
+    box-shadow: 0px 2px #bababa;
+    background: white;
+    font-weight: 600;
+}
+
+input::placeholder{
+	text-align : center;
+}
